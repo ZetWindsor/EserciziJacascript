@@ -29,3 +29,10 @@ function stampNickNameAge(persons) {
 nicknames = stampNickNameAge(persons)
 //console.log(persons);
 console.log(nicknames)
+
+////////////////////////////////////////////////////////////////////////////////////////////
+function stampNickNameAge2(persons) {
+  const nick = persons.map(person=>person.name+"---"+person.age)
+return nick
+}
+console.log(stampNickNameAge2(persons));

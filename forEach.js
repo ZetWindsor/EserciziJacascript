@@ -31,7 +31,7 @@ function domi(array){
 return array.forEach(element =>{element})
 }
 console.log(domi(fruits));
-// l ultimo viene undefined
+// scritto cosi viene undefined
 
 
 function develhope(fruits){
