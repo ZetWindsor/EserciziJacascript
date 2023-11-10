@@ -27,7 +27,7 @@ function stampNickNameAge(persons) {
 }
 
 nicknames = stampNickNameAge(persons)
-//console.log(persons);
+console.log(persons);
 console.log(nicknames)
 
 ////////////////////////////////////////////////////////////////////////////////////////////

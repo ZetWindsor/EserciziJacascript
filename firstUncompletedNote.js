@@ -1,8 +1,6 @@
 function firstUncompletedNote(notes) {
-  return notes.find(note => {
-    return note.todos.find(todo => !todo.done);
-  });
-}
+  return notes.find(note =>note.todos.find(todo => !todo.done)
+  )};
 
 
 const notes = [
@@ -79,3 +77,5 @@ const notes = [
 const noteInProgress = firstUncompletedNote(notes);
 console.log('All notes: ', notes);
 console.log('First note in progress: ', noteInProgress);
+
+// esercizio svolto con marta

@@ -2,18 +2,9 @@
 
 let a = 5;
 let b = 10;
+const array = [a, b];
 
-let array = [a, b]
-
-
-
-//const [x, y] = array
-
-x = array[1]
-
-y = array[0]
-
-const [x, y] = array
+[b,a]= array
 
 
 
@@ -21,4 +12,8 @@ const [x, y] = array
 
 
 
-console.log(x);
+
+
+
+
+console.log(`${a} , ${b}`);
